@@ -1,0 +1,39 @@
+[Thu Oct 29 5:48:22 CET 2015] exception 'SMSServiceException' in C:\wamp\www\imcdapp\alllibs.php:158
+Stack trace:
+#0 C:\wamp\www\imcdapp\alllibs.php(143): SMSSender->handleResponse('{"destinationRe...')
+#1 C:\wamp\www\imcdapp\cass.php(40): SMSSender->sms('Donation has be...', 'tel:94771122336')
+#2 {main}\n[Thu Oct 29 5:50:30 CET 2015] exception 'SMSServiceException' in C:\wamp\www\imcdapp\alllibs.php:158
+Stack trace:
+#0 C:\wamp\www\imcdapp\alllibs.php(143): SMSSender->handleResponse('{"destinationRe...')
+#1 C:\wamp\www\imcdapp\cass.php(40): SMSSender->sms('Thank you for y...', 'tel:94771122336')
+#2 {main}\n[Thu Oct 29 5:51:57 CET 2015] exception 'SMSServiceException' in C:\wamp\www\imcdapp\alllibs.php:158
+Stack trace:
+#0 C:\wamp\www\imcdapp\alllibs.php(143): SMSSender->handleResponse('{"destinationRe...')
+#1 C:\wamp\www\imcdapp\cass.php(40): SMSSender->sms('Thank you for y...', 'tel:94771122336')
+#2 {main}\n[Fri Oct 30 11:56:50 CET 2015] exception 'SMSServiceException' in C:\wamp\www\cass\alllibs.php:158
+Stack trace:
+#0 C:\wamp\www\cass\alllibs.php(143): SMSSender->handleResponse('{"destinationRe...')
+#1 C:\wamp\www\cass\cass.php(40): SMSSender->sms('Thank you for y...', 'tel:94771122336')
+#2 {main}\n[Fri Oct 30 11:57:10 CET 2015] exception 'CassException' with message 'Charging Error' in C:\wamp\www\cass\alllibs.php:486
+Stack trace:
+#0 C:\wamp\www\cass\alllibs.php(471): DirectDebitSender->handleResponse(Object(stdClass))
+#1 C:\wamp\www\cass\alllibs.php(455): DirectDebitSender->cassMany('123', 'tel:94771122336', '2000')
+#2 C:\wamp\www\cass\cass.php(39): DirectDebitSender->cass('123', 'tel:94771122336', '2000')
+#3 {main}\n[Fri Oct 30 11:57:10 CET 2015] exception 'SMSServiceException' in C:\wamp\www\cass\alllibs.php:158
+Stack trace:
+#0 C:\wamp\www\cass\alllibs.php(143): SMSSender->handleResponse('{"destinationRe...')
+#1 C:\wamp\www\cass\cass.php(44): SMSSender->sms('You do not have...', 'tel:94771122336')
+#2 {main}\n[Fri Oct 30 13:04:04 CET 2015] exception 'SMSServiceException' in C:\wamp\www\cass\alllibs.php:158
+Stack trace:
+#0 C:\wamp\www\cass\alllibs.php(143): SMSSender->handleResponse('{"destinationRe...')
+#1 C:\wamp\www\cass\cass.php(40): SMSSender->sms('Thank you for y...', 'tel:94771122336')
+#2 {main}\n[Fri Oct 30 13:05:29 CET 2015] exception 'CassException' with message 'Charging Error' in C:\wamp\www\cass\alllibs.php:486
+Stack trace:
+#0 C:\wamp\www\cass\alllibs.php(471): DirectDebitSender->handleResponse(Object(stdClass))
+#1 C:\wamp\www\cass\alllibs.php(455): DirectDebitSender->cassMany('123', 'tel:94771122336', '1000')
+#2 C:\wamp\www\cass\cass.php(39): DirectDebitSender->cass('123', 'tel:94771122336', '1000')
+#3 {main}\n[Fri Oct 30 13:05:29 CET 2015] exception 'SMSServiceException' in C:\wamp\www\cass\alllibs.php:158
+Stack trace:
+#0 C:\wamp\www\cass\alllibs.php(143): SMSSender->handleResponse('{"destinationRe...')
+#1 C:\wamp\www\cass\cass.php(44): SMSSender->sms('You do not have...', 'tel:94771122336')
+#2 {main}\n
